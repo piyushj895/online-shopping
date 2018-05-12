@@ -12,6 +12,12 @@
 		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- Linking backend with frontend -->
+		<dependency>
+			<groupId>net.pj</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
